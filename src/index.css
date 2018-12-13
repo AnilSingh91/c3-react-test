@@ -1,5 +1,55 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.pearon-users h1 {
+    font-size: 36px;
+    color: #007fa3;
+    padding-left: 83px;
+}
+
+.user-list {
+    position: relative;
+    top: 10%;
+    background-color: #d8d8d8;
+    padding: 65px 0px 0 65px;
+    margin-top: 10px;
+}
+
+.user {
+    position: relative;
+    display: inline-block;
+    width: 212px;
+    height: 120px;
+    margin: 0 18px 50px;
+    text-align: center;
+    background: #fff;
+}
+
+.user-name {
+    font-size: 18px;
+    color: #e93939;
+    position: relative;
+    top: 50px;
+}
+
+.avatar {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    margin-left: -40px;
+}
+
+.delete-button {
+    position: absolute;
+    font-size: 14px;
+    color: #007fa3;
+    bottom: 0;
+    left: 2px;
+    cursor: pointer;
 }
